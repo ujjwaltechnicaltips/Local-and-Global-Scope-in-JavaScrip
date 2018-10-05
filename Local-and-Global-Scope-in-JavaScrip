@@ -1,0 +1,38 @@
+<script type="text/javascript">
+	
+var facebookname = 'Ujjwal Technical Tips';	
+console.log(facebookname);
+//Global scope
+
+	f2();
+   function f2(){ 
+   }
+</script>
+
+
+<script type="text/javascript">
+var facebookname = 'Ujjwal Technical Tips';	
+//Global scope
+
+	f2();
+   function f2(){ 
+   console.log(facebookname);
+   }
+</script>
+
+_____________________________________________________________________________________________________________
+
+//Local scope
+
+<script type="text/javascript">
+
+console.log(facebookname);
+
+//Local scope
+
+	f2();
+   function f2(){ 
+   	var facebookname = 'Ujjwal Technical Tips';	
+   }
+</script>
+	
