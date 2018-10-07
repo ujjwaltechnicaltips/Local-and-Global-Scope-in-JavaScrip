@@ -26,13 +26,14 @@ ________________________________________________________________________________
 
 <script type="text/javascript">
 
-console.log(facebookname);
+
 
 //Local scope
 
 	f2();
    function f2(){ 
    	var facebookname = 'Ujjwal Technical Tips';	
+	console.log(facebookname);
    }
 </script>
 	
